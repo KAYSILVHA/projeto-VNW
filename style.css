@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+  background-color: #14191D;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  height: 50px;
+}
+body{
+  background-color: color: #E9E9E9;
+  width: 100%;
+  height: 100%;
+}
+main{
+  display: flex;
+  background-color: #E9E9E9;
+  height: calc(100vh - 50px)
+}
+
+aside{
+  height: calc(100vh - 70px);
+  background-color: #fff;
+  width: 300px;
+  border-radius: 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.first {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.second{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  list-style: none;
+}
+
+ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li img{
+  width: 20px
+}
+a{
+  text-decoration: none;
+}
+
+section{
+  padding: 30px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+.filmes{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+  gap:  50px 30px;
+  color: #14191D;
+}
+
+.filmes .filme{
+  width: 280px;
+  height: 390px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2.95px 2.95px 4.6px;
+}
+
+.filme .image{
+  width: 100%;
+  height: 280px;
+}
+
+.filme .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.informations{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 10px;
+  gap: 30px;
+}
+
+.informations .name-avaliacao{
+  display: flex;
+  justify-content: space-between;
+}
+
+.informations .name-avaliacao p{
+  padding-top: 3px;
+}
+
+.name-avaliacao span{
+  color: skyblue;
+}
+
+.info-filme{
+  display: flex;
+  justify-content: space-between
+}
+
+
+h2{
+  font-size: 20px;
+}
+
+
+.update p{
+  font-size: 12px;
+  color: lightgray; 
+}
+
+.update span{
+  color: gray;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.running p{
+  font-size: 12px;
+  color: lightgray; 
+}
+
+.running span{
+  color: gray;
+  font-size: 12px;
+  font-weight: bolder;
+  padding-left: 15px;
+}
